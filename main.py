@@ -2,14 +2,12 @@ import streamlit as st
 
 pages = {
     "Text, Image, Table Extraction": [
-        st.Page("extraction.py", title="Extraction"),
+        st.Page("extraction_v2.py", title="Extraction"),
     ],
-    "Text with LLM": [
-        st.Page("text_llm_v2.py", title="Text Summarization With RAG and LLM"),
+    "Chat Bot": [
+        st.Page("text_llm.py", title="Chat Bot"),
     ],
-    "Image with LLM": [
-        st.Page("image_llm_v2.py", title="Image Summarization With LLM"),
-    ],
+    "Multi Model Image": [st.Page("image_llm_v2.py", title="Multi Model Image")],
 }
 
 pg = st.navigation(pages)
