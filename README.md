@@ -1,6 +1,7 @@
-AI-Powered Streamlit Application for PDF Processing and Analysis
+                 **AI-Powered Streamlit Application for PDF Processing and Analysis**
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Overview
+**Overview**
 
 This Streamlit-based application enables users to:
 
@@ -10,7 +11,7 @@ Interact with an AI-powered chatbot for in-depth PDF content analysis.
 
 Perform AI-driven image analysis on extracted images using advanced LLMs.
 
-Large Language Models (LLMs) Utilized
+**Large Language Models (LLMs) Utilized**
 
 1. DeepSeek-R1 (70B Llama Variant)
 
@@ -22,7 +23,7 @@ Used for image analysis in image_llm.py.
 
 Accepts and processes both text and image inputs.
 
-Libraries and Tools
+**Libraries and Tools**
 
 Streamlit: Web UI framework for interactive applications.
 
@@ -40,7 +41,7 @@ PIL (Pillow): Image processing.
 
 fpdf: Generates PDFs from modified text.
 
-Key Features
+**Key Features**
 
 📄 PDF Extraction (extraction.py)
 
@@ -62,7 +63,7 @@ View images extracted from PDFs.
 
 Query the AI (LLaVA model) to analyze images and provide insightful responses.
 
-Technologies & Dependencies
+**Technologies & Dependencies**
 
 Programming Language
 
