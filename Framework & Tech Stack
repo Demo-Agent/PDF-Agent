@@ -1,3 +1,6 @@
+Architected an end-to-end GEN-AI document intelligence platform combining SOTA LLMs, vision-language models, and OCR into an intuitive Streamlit UI, delivering measurable productivity gains across legal, finance, and compliance teams.
+
+
 Framework & Tech Stack
 Full-Stack GEN-AI Pipeline: Built a modular Streamlit application suite orchestrating Unstructured.io for high-resolution PDF ingestion, OpenRouter.ai / Ollama for LLM inference, and Tesseract-OCR for enterprise-grade text extraction.
 Micro-service Architecture: De-coupled text, image, and table extraction into three independent Streamlit pages linked by session-state messaging for maintainability and horizontal scaling.
